@@ -25,6 +25,6 @@ boxplot_payment <- function(data, x) {
   }
 
   # Create a boxplot for the selected payment
-  boxplot(data[[x]], main = paste("Boxplot of", x), xlab = x, ylab = "money", col = "blue",ylim = c(0, max(y, na.rm = TRUE)))
+  boxplot(y, main = paste("Boxplot of", x), xlab = x, ylab = "money", col = "blue",ylim = c(0, max(y, na.rm = TRUE)))
 }
 
