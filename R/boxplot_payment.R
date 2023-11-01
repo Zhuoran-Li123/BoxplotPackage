@@ -8,8 +8,6 @@
 #' @return A boxplot for different kinds of payments by DRG_data.
 #' @export
 #'
-#' @importFrom boxplot boxplot
-#'
 #' @examples
 #'boxplot_payment(DRG_data, 'Average Covered Charges')
 #'
